@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/generationSkills/static/css/main.e6c13ad2.css",
+    "main.js": "/generationSkills/static/js/main.c40a413d.js",
+    "index.html": "/generationSkills/index.html",
+    "main.e6c13ad2.css.map": "/generationSkills/static/css/main.e6c13ad2.css.map",
+    "main.c40a413d.js.map": "/generationSkills/static/js/main.c40a413d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c40a413d.js"
+  ]
+}
