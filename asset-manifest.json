@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/generationSkills/static/css/main.e6c13ad2.css",
-    "main.js": "/generationSkills/static/js/main.c40a413d.js",
+    "main.css": "/generationSkills/static/css/main.fb35d48d.css",
+    "main.js": "/generationSkills/static/js/main.0fccfe3d.js",
+    "static/media/blackbowl.png": "/generationSkills/static/media/blackbowl.0e0098a4d84acca4f9d0.png",
+    "static/media/topborder.png": "/generationSkills/static/media/topborder.86361a4d4706a5300e40.png",
+    "static/media/bottomborder.png": "/generationSkills/static/media/bottomborder.372daf786dca75a69521.png",
+    "static/media/linepop.png": "/generationSkills/static/media/linepop.2d30bdbf1a8a8ed2e046.png",
     "index.html": "/generationSkills/index.html",
-    "main.e6c13ad2.css.map": "/generationSkills/static/css/main.e6c13ad2.css.map",
-    "main.c40a413d.js.map": "/generationSkills/static/js/main.c40a413d.js.map"
+    "main.fb35d48d.css.map": "/generationSkills/static/css/main.fb35d48d.css.map",
+    "main.0fccfe3d.js.map": "/generationSkills/static/js/main.0fccfe3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.c40a413d.js"
+    "static/css/main.fb35d48d.css",
+    "static/js/main.0fccfe3d.js"
   ]
 }
