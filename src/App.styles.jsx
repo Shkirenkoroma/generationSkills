@@ -186,6 +186,7 @@ export const LevelGroup = styled.div`
 	align-items: center;
 	justify-content: center;
 `;
+export const Forwarding = styled.div``;
 
 export const GenerationGroup = styled.div`
 	display: flex;
@@ -205,14 +206,23 @@ export const ShortLine = styled.img`
 	top: 60px;
 	right: 57px;
 `;
+
 export const Center = styled.img`
 	position: absolute;
 	top: 210px;
 	right: 215px;
 	z-index: 1;
 `;
+export const OpacityCycle = styled.img`
+	position: absolute;
+	top: 40px;
+	right: 40px;
+`;
+
 export const Arrow = styled.img`
 	position: absolute;
 	top: 41px;
 	right: 48px;
+	transition: all 700ms;
+	transform: rotate(${(props) => props.rotate}deg);
 `;
