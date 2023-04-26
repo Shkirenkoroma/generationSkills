@@ -58,10 +58,10 @@ console.log('rotate', rotate)
 							<S.LevelOne   rotate={rotate} onClick={() => handleClick('firstLevel')}>
 								<S.LevelText>Level 1</S.LevelText>
 							</S.LevelOne>
-							<S.LevelSecond onClick={() => handleClick('secondLevel')}>
+							<S.LevelSecond rotate={rotate}  onClick={() => handleClick('secondLevel')}>
 								<S.LevelText>Level 2</S.LevelText>
 							</S.LevelSecond>
-							<S.LevelThird onClick={() => handleClick('thirdLevel')}>
+							<S.LevelThird rotate={rotate}  onClick={() => handleClick('thirdLevel')}>
 								<S.LevelText>Level 3</S.LevelText>
 							</S.LevelThird>
 						</S.LevelGroup>

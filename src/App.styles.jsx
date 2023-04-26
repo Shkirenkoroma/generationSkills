@@ -212,8 +212,8 @@ export const ShortLine = styled.img`
 
 export const Center = styled.img`
 	position: absolute;
-	top: 210px;
-	right: 215px;
+	top: 208px;
+	right: 213px;
 	z-index: 1;
 `;
 export const OpacityCycle = styled.img`
