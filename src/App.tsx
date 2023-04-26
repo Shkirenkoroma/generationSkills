@@ -10,7 +10,7 @@ import opacitycycle from './img/fillopacity.png';
 
 const App: FC = (): JSX.Element => {
 	const [rotate, setRotate] = useState<number>(1);
-
+console.log('rotate', rotate)
 	const handleClick = (text: string): void => {
 		text === 'firstLevel'
 			? setRotate(1)
@@ -55,7 +55,7 @@ const App: FC = (): JSX.Element => {
 							<S.Arrow src={arrow} rotate={rotate} />
 						</S.BowlGroup>
 						<S.LevelGroup>
-							<S.LevelOne onClick={() => handleClick('firstLevel')}>
+							<S.LevelOne   rotate={rotate} onClick={() => handleClick('firstLevel')}>
 								<S.LevelText>Level 1</S.LevelText>
 							</S.LevelOne>
 							<S.LevelSecond onClick={() => handleClick('secondLevel')}>

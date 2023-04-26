@@ -134,6 +134,7 @@ export const LevelOne = styled.button`
 	border: 1px solid #ffffff;
 	border-radius: 20px;
 	margin-bottom: 50px;
+	background-color: ${(props) => (props.rotate === 1 ? '#7a0bc0' : '')};
 
 	&:hover {
 		background-color: #7a0bc0;
@@ -149,6 +150,7 @@ export const LevelSecond = styled.button`
 	border: 1px solid #ffffff;
 	border-radius: 20px;
 	margin-bottom: 50px;
+	background-color: ${(props) => (props.rotate === 120 ? '#0b8ac0' : '')};
 
 	&:hover {
 		background-color: #0b8ac0;
@@ -160,9 +162,10 @@ export const LevelSecond = styled.button`
 export const LevelThird = styled.button`
 	width: 136px;
 	height: 38px;
-	background: transparent;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
+	background: transparent;
+	background-color: ${(props) => (props.rotate === 240 ? '#e105e5' : '')};
 
 	&:hover {
 		background-color: #e105e5;
