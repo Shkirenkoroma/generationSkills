@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
 	max-width: 1440px;
 	min-height: 900px;
-	background-color: #252424;
 	margin: 0 auto;
+	background-color: #252424;
 `;
 
 export const ContainerContent = styled.div`
@@ -22,29 +22,30 @@ export const ContainerContent = styled.div`
 
 export const Top = styled.header`
 	position: relative;
-	background-size: 100px 100px;
-	max-width: 1440px;
 	width: 100%;
+	max-width: 1440px;
 	height: 250px;
 	margin: 0 auto;
+	background-size: 100px 100px;
 `;
 
 export const MiddlePart = styled.section`
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
-	max-width: 1240px;
+	align-items: center;
 	width: 100%;
+	max-width: 1240px;
 	min-height: 371px;
-	background-color: #922424;
 	margin: 0 auto;
+	background-color: #922424;
 `;
 
 export const BurgerMenu = styled.div`
 	position: relative;
-	min-height: 25px;
-	left: 100px;
 	top: 50px;
+	left: 100px;
+	min-height: 25px;
+
 	&:hover {
 		cursor: pointer;
 	}
@@ -52,28 +53,30 @@ export const BurgerMenu = styled.div`
 
 export const Lines = styled.span`
 	display: inline-block;
-	max-width: 33px;
 	width: 100%;
+	max-width: 33px;
 	min-height: 3px;
 	background-color: #ffffff;
+
 	::before {
 		content: '';
 		position: absolute;
 		top: 6px;
 		left: 0;
-		height: 3px;
-		max-width: 33px;
 		width: 100%;
+		max-width: 33px;
+		height: 3px;
 		background-color: #ffffff;
 	}
+
 	::after {
 		content: '';
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		height: 3px;
-		max-width: 33px;
 		width: 100%;
+		max-width: 33px;
+		height: 3px;
 		background-color: #ffffff;
 	}
 `;
@@ -88,8 +91,9 @@ export const Forward = styled.button`
 	width: 300px;
 	height: 60px;
 	border: none;
-	background: linear-gradient(93.71deg, #7a0bc0 13.27%, #fa58b6 101.64%);
 	border-radius: 30px;
+	background: linear-gradient(93.71deg, #7a0bc0 13.27%, #fa58b6 101.64%);
+
 	&:hover {
 		cursor: pointer;
 		background: linear-gradient(11.71deg, #7a0bc0 13.27%, #fa58b6 101.64%);
@@ -117,8 +121,8 @@ export const Title = styled.h1`
 `;
 
 export const Describe = styled.p`
-	max-width: 550px;
 	width: 100%;
+	max-width: 550px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
@@ -130,15 +134,14 @@ export const Describe = styled.p`
 export const LevelOne = styled.button`
 	width: 136px;
 	height: 38px;
-	background: transparent;
+	margin-bottom: 50px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
-	margin-bottom: 50px;
-	background-color: ${(props) => (props.rotate === 1 ? '#7a0bc0' : '')};
+	background-color: ${(props) => (props.rotate === 1 ? '#7a0bc0' : 'transparent')};
 
 	&:hover {
-		background-color: #7a0bc0;
 		cursor: pointer;
+		background-color: #7a0bc0;
 		transition: all 700ms;
 	}
 `;
@@ -146,15 +149,14 @@ export const LevelOne = styled.button`
 export const LevelSecond = styled.button`
 	width: 136px;
 	height: 38px;
-	background: transparent;
+	margin-bottom: 50px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
-	margin-bottom: 50px;
-	background-color: ${(props) => (props.rotate === 120 ? '#0b8ac0' : '')};
+	background-color: ${(props) => (props.rotate === 120 ? '#0b8ac0' : 'transparent')};
 
 	&:hover {
-		background-color: #0b8ac0;
 		cursor: pointer;
+		background-color: #0b8ac0;
 		transition: all 700ms;
 	}
 `;
@@ -164,12 +166,11 @@ export const LevelThird = styled.button`
 	height: 38px;
 	border: 1px solid #ffffff;
 	border-radius: 20px;
-	background: transparent;
-	background-color: ${(props) => (props.rotate === 240 ? '#e105e5' : '')};
+	background-color: ${(props) => (props.rotate === 240 ? '#e105e5' : 'transparent')};
 
 	&:hover {
-		background-color: #e105e5;
 		cursor: pointer;
+		background-color: #e105e5;
 		transition: all 700ms;
 	}
 `;
@@ -186,36 +187,44 @@ export const LevelText = styled.span`
 export const LevelGroup = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 `;
+
 export const Forwarding = styled.div``;
 
 export const GenerationGroup = styled.div`
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
-	max-width: 564px;
+	align-items: center;
 	width: 100%;
+	max-width: 564px;
 	min-height: 371px;
 `;
+
 export const BowlGroup = styled.div`
 	position: relative;
 `;
 
 export const BackBowl = styled.img``;
+
 export const ShortLine = styled.img`
 	position: absolute;
 	top: 60px;
 	right: 57px;
 `;
 
-export const Center = styled.img`
-	position: absolute;
-	top: 208px;
-	right: 213px;
-	z-index: 1;
+export const Center = styled.div`
+  position: absolute;
+  top:210px;
+  right:209px;
+  z-index:1;
+  width: 45px;
+	height: 45px;
+  border-radius: 50%;
+  background-color:${(props) => (props.rotate === 1 ? '#7a0bc0' : props.rotate === 120 ? '#0b8ac0' : '#e105e5')};
 `;
+
 export const OpacityCycle = styled.img`
 	position: absolute;
 	top: 40px;
@@ -226,6 +235,6 @@ export const Arrow = styled.img`
 	position: absolute;
 	top: 41px;
 	right: 48px;
-	transition: all 700ms;
 	transform: rotate(${(props) => props.rotate}deg);
+	transition: all 700ms;
 `;
