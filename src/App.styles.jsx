@@ -216,11 +216,11 @@ export const ShortLine = styled.img`
 
 export const Center = styled.div`
   position: absolute;
-  top:210px;
-  right:209px;
+  top:208px;
+  right:214px;
   z-index:1;
-  width: 45px;
-	height: 45px;
+  width: 40px;
+	height: 40px;
   border-radius: 50%;
   background-color:${(props) => (props.rotate === 1 ? '#7a0bc0' : props.rotate === 120 ? '#0b8ac0' : '#e105e5')};
 `;
@@ -233,8 +233,26 @@ export const OpacityCycle = styled.img`
 
 export const Arrow = styled.img`
 	position: absolute;
-	top: 41px;
-	right: 48px;
+	top: 40px;
+	right: 49px;
+  transform-origin:50%;
 	transform: rotate(${(props) => props.rotate}deg);
 	transition: all 700ms;
 `;
+
+
+export const Aside = styled.div`
+position:absolute;
+top:0;
+width:100%;
+max-width:320px;
+height:100%;
+min-height:400px;
+background-color:black;
+`
+export const Cancel = styled.img`
+position:absolute;
+top:0;
+left:0;
+
+`

@@ -7,6 +7,7 @@ import shortline from './img/linepop.png';
 import center from './img/cycle.png';
 import arrow from './img/arrow.png';
 import opacitycycle from './img/fillopacity.png';
+import cancel from './img/cancel.png';
 
 const App: FC = (): JSX.Element => {
   const [rotate, setRotate] = useState<number>(1);
@@ -33,6 +34,9 @@ const App: FC = (): JSX.Element => {
             <S.Lines />
           </S.BurgerMenu>
         </S.Top>
+        <S.Aside >
+          <S.Cancel src={cancel} alt="place for cancel button"/>
+          </ S.Aside>
         <S.MiddlePart>
           <S.Forwarding>
             <S.Title>
