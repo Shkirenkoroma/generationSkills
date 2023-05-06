@@ -246,13 +246,19 @@ position:absolute;
 top:0;
 width:100%;
 max-width:320px;
-height:100%;
-min-height:400px;
 background-color:black;
+min-height: 100vh;
+left: ${(props) => (props.activeMenu === true ? '332px' : '0')};
+
+}
 `
 export const Cancel = styled.img`
 position:absolute;
-top:0;
-left:0;
+right: 60px;
+  top: 50px;
+
+  :hover{
+    cursor:pointer;
+  }
 
 `
